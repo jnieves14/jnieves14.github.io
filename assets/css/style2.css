@@ -128,7 +128,7 @@ h3, h2 {
   float: left;
   width: 100%;
   max-width: 960px;
-  padding: 30px;
+  padding: 40px;
   margin: 0 0 40px;
   background: #ffffff;
   border: 1px solid #dddddd;
@@ -140,13 +140,17 @@ h3, h2 {
 .work {
   position: relative;
   float: left;
-  width: 274px;
-  margin: 20px 0 25px;
+  width: 250px;
+  margin: 20px 40px 25px 0px;
   overflow: auto;
 }
 
-.work:nth-child(even) {
+/* .work:nth-child(even) {
   margin-right: 40px;
+} */
+
+.projects {
+  margin: 0px 0px 0px 150px;
 }
 
 .work img {
@@ -163,9 +167,9 @@ h3, h2 {
   margin-bottom: 0;
   font-weight: 300;
   line-height: 30px;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
-  background: #808080;
+  background: #4aaaa5;
   border-bottom: 0;
 }
 
@@ -176,7 +180,6 @@ h3, h2 {
   margin-top: 10px;
   margin-right: 25px;
 }
-
 /* contact page */
 
 #contact-form ul {
