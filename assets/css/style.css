@@ -272,8 +272,7 @@ body {
   /* media query width for 1024px and below */
 @media screen and (max-width: 1024px) {
   body {
-      background-color: black;
-    background: black;
+    background: url("../images/otis_redding.png");
   }
 
 
