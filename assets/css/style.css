@@ -129,7 +129,7 @@
   nav {
     float: right;
     margin-top: 25px;
-    /* width: 100%; */
+    position: static;
   }
   
   nav a {
@@ -221,46 +221,7 @@
   margin-right: auto;
 }
   
-  /* contact page */
   
-  #contact-form ul {
-    margin-bottom: 20px;
-  }
-  
-  #contact-form li {
-    margin-bottom: 10px;
-  }
-  
-  label,
-  input[type=text],
-  input[type=email],
-  textarea {
-    display: block;
-    width: 100%;
-  }
-  
-  input[type=text],
-  input[type=email],
-  textarea {
-    height: 35px;
-    padding: 0 10px;
-    font-size: 14px;
-    border: 1px solid #ddd;
-  }
-  
-  textarea {
-    height: 200px;
-  }
-  
-  input[type=submit] {
-    padding: 10px 30px;
-    font-size: 18px;
-    color: #fff;
-    cursor: pointer;
-    background: #808080;
-    border: 0 none;
-  }
-
   /* media query width for 960px and below */
 @media screen and (max-width: 960px) {
   body {
