@@ -84,6 +84,7 @@ h3 {
 
 nav {
   float: right;
+  position: static;
   margin-top: 25px;
 }
 
@@ -145,7 +146,8 @@ h3, h2 {
 .work {
   position: relative;
   float: left;
-  width: 250px;
+  width: 350px;
+  height: 230px;
   margin: 20px 40px 25px 0px;
   overflow: auto;
 }
@@ -155,13 +157,13 @@ h3, h2 {
 } */
 
 .projects {
-  margin: 0px 0px 0px 150px;
+  margin: 0px 0px 0px 45px;
 }
 
 .work img {
   width: 100%;
   border: 0 none;
-  opacity: 0.8;
+  /* opacity: 0.8; */
 }
 
 .work h3 {
@@ -187,8 +189,8 @@ h3, h2 {
 }
 
 #repo {
-  text-align: right;
-  font-size: 8px;
+  text-align: center;
+  font-size: 15px;
 }
 
 
