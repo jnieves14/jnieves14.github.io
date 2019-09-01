@@ -1,5 +1,5 @@
 html {
-  height: 100%;
+  border: 7px solid darkgrey;
 }
 
 * {
@@ -13,7 +13,6 @@ html {
     line-height: 36px;
     /* color: #777; */
     /* background: url("../images/shl.png"); */
-    border: 7px solid darkgrey;
     /* background: url("../images/marble.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
