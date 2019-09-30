@@ -281,7 +281,7 @@ header.masthead .intro-text .intro-heading {
 
 #portfolio .portfolio-item .portfolio-caption {
   max-width: 400px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   padding: 25px;
   text-align: center;
   background-color: #fff;
@@ -371,7 +371,7 @@ header.masthead .intro-text .intro-heading {
   margin-left: 35px;
   /* IE 9 */
   transform: rotate(45deg);
-  background-color: #212529;
+  background-color: lightgray;
 }
 
 .portfolio-modal .close-modal .lr .rl {
@@ -381,7 +381,7 @@ header.masthead .intro-text .intro-heading {
   height: 75px;
   /* IE 9 */
   transform: rotate(90deg);
-  background-color: #212529;
+  background-color: lightgray;
 }
 
 .timeline {
@@ -572,7 +572,7 @@ header.masthead .intro-text .intro-heading {
 
 
 section#contact {
-  background-color: #212529;
+  /* background-color: lightgray; */
   background-image: url("../img/contact-image.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -666,5 +666,5 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: lightgray;
+  background-color: #212529;
 }
